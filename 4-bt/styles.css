@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap');
+
+body{
+    background: #dcdddf;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar-brand{
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    color: #0a0a0a;
+}
+.navbar-brand:hover{
+    color: #0a0a0a;
+}
+.login_btn{
+    color: #000000;
+    padding: 10px 23px;
+    background: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    border: 1px solid #dcdddf;
+}
+.login_btn:hover{
+    border: 1px solid #ffffff;
+    background-color: #dcdddf;
+    color: #000000;
+}
+.nav-link {
+    color: #000000;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+  
+.nav-link:focus,
+.nav-link:hover {
+    color: #e7ac40;
+  }
+  
+.nav-link:focus:after,
+.nav-link:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+.nav-link:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #e7ac40;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
+  img{
+    width: 100%;
+  }
+  .btn{
+    background-color: #305f64;
+    border-radius: 8px 30px;
+    padding: 10px 20px;
+    color: #fff;
+  }
+  .btn:hover{
+    color:#fff
+  }
+.btn-1{
+  border: none;
+  background: transparent;
+
+}
+.btn-1 i{
+  font-size: 25px;
+  color: #305f64;
+}

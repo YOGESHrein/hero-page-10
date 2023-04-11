@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  color: #023e8a;
+  font-family: "Lato";
+}
+.sign_in {
+  text-decoration: none;
+  color: #023e8a;
+}
+.nav-item a {
+  color: #023e8a;
+}
+.navbar-brand {
+  color: #023e8a;
+}
+.sign_in:hover {
+  text-decoration: underline;
+}
+.navbar-toggler-icon {
+  color: #023e8a;
+}
+
+.navbar-custom {
+  background-color: #023e8a;
+}
+.btn {
+  background: #fdfdfd;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #023e8a;
+}
+.btn:hover {
+  background: rgba(2, 61, 138, 0.801);
+  color: #ffff;
+}
+.btn-1{
+
+    background: rgba(2, 61, 138, 0.801);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: #fdfdfd;
+}
+.btn-1:hover {
+    background: #ffff;
+    color: #023e8a;
+  }
+.hero-section {
+  background-image: url("img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+img {
+  width: 100%;
+}
